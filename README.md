@@ -265,18 +265,47 @@ Nilai reliabilitas yang lebih tinggi pada data 70 responden juga menunjukkan bah
 ---
 
 ## Perbandingan Analisis Deskriptif
+## Perbandingan Analisis Deskriptif
 
-### Perbandingan Distribusi Jawaban Responden
+### Tabel Perbandingan Frekuensi
 
-Berdasarkan hasil distribusi frekuensi dan persentase pada data 28 responden maupun 70 responden, mayoritas mahasiswa memberikan jawaban pada kategori puas dan sangat puas terhadap sebagian besar fasilitas Fakultas MIPA Universitas Mataram.
+| No | Indikator | 28 Responden | 70 Responden |
+|---|---|---|---|
+| 1 | Ruang kelas nyaman | 1:1, 2:1, 3:9, 4:14, 5:3 | 1:1, 2:3, 3:22, 4:31, 5:13 |
+| 2 | Meja & kursi layak | 3:9, 4:15, 5:4 | 2:2, 3:19, 4:32, 5:17 |
+| 3 | AC/Kipas berfungsi | 1:1, 2:9, 3:12, 4:5, 5:1 | 1:6, 2:19, 3:23, 4:16, 5:6 |
+| 4 | Pencahayaan memadai | 3:12, 4:11, 5:5 | 2:2, 3:29, 4:27, 5:12 |
+| 5 | TV/LCD mendukung | 1:2, 2:2, 3:9, 4:11, 5:4 | 1:6, 2:9, 3:18, 4:28, 5:9 |
+| 6 | Laboratorium memadai | 2:3, 3:4, 4:16, 5:5 | 2:3, 3:20, 4:30, 5:17 |
+| 7 | Akses internet/WiFi | 3:11, 4:13, 5:4 | 2:5, 3:24, 4:25, 5:16 |
+| 8 | Kebersihan ruang kelas | 2:1, 3:8, 4:10, 5:9 | 2:1, 3:21, 4:26, 5:22 |
+| 9 | Kebersihan toilet | 2:1, 3:13, 4:9, 5:5 | 1:4, 2:10, 3:25, 4:21, 5:10 |
+| 10 | Perpustakaan nyaman | 2:1, 3:5, 4:15, 5:7 | 2:1, 3:17, 4:33, 5:19 |
+| 11 | Area parkir aman | 3:5, 4:14, 5:9 | 1:1, 2:3, 3:18, 4:26, 5:22 |
+| 12 | Kepuasan fasilitas FMIPA | 3:7, 4:17, 5:4 | 3:25, 4:28, 5:17 |
 
-Pada data 28 responden, jawaban responden cenderung lebih terkonsentrasi pada kategori puas dengan variasi jawaban yang masih terbatas. Sementara itu, pada data 70 responden distribusi jawaban menjadi lebih beragam sehingga mampu memberikan gambaran yang lebih representatif mengenai kondisi fasilitas kampus.
+---
 
-Beberapa indikator seperti perpustakaan, area parkir, dan kebersihan ruang kelas memperoleh tingkat kepuasan yang cukup tinggi pada kedua data penelitian. Hal ini menunjukkan bahwa fasilitas tersebut dinilai cukup baik oleh mahasiswa.
+### Tabel Perbandingan Persentase
 
-Namun, indikator fasilitas AC/kipas angin serta kebersihan toilet masih memperoleh cukup banyak jawaban netral dan kurang puas, terutama pada data 70 responden. Hal ini menunjukkan bahwa kedua fasilitas tersebut masih perlu diperhatikan dan ditingkatkan untuk meningkatkan kenyamanan mahasiswa dalam proses pembelajaran.
+| No | Indikator | 28 Responden (%) | 70 Responden (%) |
+|---|---|---|---|
+| 1 | Ruang kelas nyaman | 1:3.57, 2:3.57, 3:32.14, 4:50.00, 5:10.71 | 1:1.43, 2:4.29, 3:31.43, 4:44.29, 5:18.57 |
+| 2 | Meja & kursi layak | 3:32.14, 4:53.57, 5:14.29 | 2:2.86, 3:27.14, 4:45.71, 5:24.29 |
+| 3 | AC/Kipas berfungsi | 1:3.57, 2:32.14, 3:42.86, 4:17.86, 5:3.57 | 1:8.57, 2:27.14, 3:32.86, 4:22.86, 5:8.57 |
+| 4 | Pencahayaan memadai | 3:42.86, 4:39.29, 5:17.86 | 2:2.86, 3:41.43, 4:38.57, 5:17.14 |
+| 5 | TV/LCD mendukung | 1:7.14, 2:7.14, 3:32.14, 4:39.29, 5:14.29 | 1:8.57, 2:12.86, 3:25.71, 4:40.00, 5:12.86 |
+| 6 | Laboratorium memadai | 2:10.71, 3:14.29, 4:57.14, 5:17.86 | 2:4.29, 3:28.57, 4:42.86, 5:24.29 |
+| 7 | Akses internet/WiFi | 3:39.29, 4:46.43, 5:14.29 | 2:7.14, 3:34.29, 4:35.71, 5:22.86 |
+| 8 | Kebersihan ruang kelas | 2:3.57, 3:28.57, 4:35.71, 5:32.14 | 2:1.43, 3:30.00, 4:37.14, 5:31.43 |
+| 9 | Kebersihan toilet | 2:3.57, 3:46.43, 4:32.14, 5:17.86 | 1:5.71, 2:14.29, 3:35.71, 4:30.00, 5:14.29 |
+| 10 | Perpustakaan nyaman | 2:3.57, 3:17.86, 4:53.57, 5:25.00 | 2:1.43, 3:24.29, 4:47.14, 5:27.14 |
+| 11 | Area parkir aman | 3:17.86, 4:50.00, 5:32.14 | 1:1.43, 2:4.29, 3:25.71, 4:37.14, 5:31.43 |
+| 12 | Kepuasan fasilitas FMIPA | 3:25.00, 4:60.71, 5:14.29 | 3:35.71, 4:40.00, 5:24.29 |
 
-Secara umum, penambahan jumlah responden dari 28 menjadi 70 responden memberikan hasil penelitian yang lebih stabil, lebih akurat, dan lebih mampu menggambarkan kondisi sebenarnya mengenai tingkat kepuasan mahasiswa terhadap fasilitas Fakultas MIPA Universitas Mataram.
+---
+
+Berdasarkan hasil perbandingan frekuensi dan persentase pada 28 responden dan 70 responden, mayoritas mahasiswa pada kedua penelitian memberikan jawaban pada kategori puas dan sangat puas terhadap sebagian besar fasilitas Fakultas MIPA Universitas Mataram. Pada indikator ruang kelas nyaman, meja dan kursi layak, laboratorium, perpustakaan, serta area parkir, kedua data menunjukkan dominasi jawaban pada kategori puas. Namun, pada data 70 responden distribusi jawaban terlihat lebih beragam karena jumlah responden yang lebih banyak mampu menggambarkan penilaian mahasiswa secara lebih representatif. Indikator kebersihan ruang kelas memperoleh tingkat kepuasan yang cukup tinggi pada kedua penelitian. Pada data 28 responden, kategori sangat puas sebesar 32.14%, sedangkan pada data 70 responden sebesar 31.43%. Hal ini menunjukkan bahwa mahasiswa menilai kebersihan ruang kelas sudah cukup baik dan konsisten pada kedua penelitian. Sementara itu, indikator AC/kipas angin dan kebersihan toilet masih memperoleh cukup banyak jawaban netral dan tidak puas baik pada data 28 responden maupun 70 responden. Hal ini menunjukkan bahwa kedua fasilitas tersebut masih perlu ditingkatkan agar dapat meningkatkan kenyamanan mahasiswa dalam proses pembelajaran. Secara umum, penambahan jumlah responden dari 28 menjadi 70 responden menghasilkan distribusi data yang lebih stabil, lebih representatif, dan lebih mampu menggambarkan kondisi sebenarnya mengenai tingkat kepuasan mahasiswa terhadap fasilitas Fakultas MIPA Universitas Mataram.
 
 # Kesimpulan
 
