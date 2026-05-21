@@ -194,10 +194,90 @@ Indikator dengan tingkat kepuasan yang cukup tinggi terlihat pada fasilitas perp
 
 ---
 
+
+## Perbandingan Penelitian 28 Responden dan 70 Responden
+
+Penelitian ini mengalami penambahan jumlah responden dari 28 responden menjadi 70 responden. Perbandingan dilakukan untuk melihat perubahan tingkat kesalahan (error), hasil uji validitas, hasil uji reliabilitas, serta distribusi jawaban responden setelah jumlah sampel ditambah.
+
+---
+
+## Perbandingan Penentuan Sampel Menggunakan Rumus Slovin
+
+### Tabel Perbandingan Slovin
+
+| Keterangan | 28 Responden | 70 Responden |
+|---|---|---|
+| Populasi | 157 | 157 |
+| Jumlah Sampel | 28 | 70 |
+| Tingkat Error | 17% | 10% |
+| Keterangan | Ketelitian lebih rendah | Ketelitian lebih baik |
+
+Berdasarkan hasil perhitungan menggunakan rumus Slovin, penelitian awal dengan 28 responden memiliki tingkat kesalahan sekitar 17%. Tingkat error tersebut tergolong cukup besar sehingga tingkat ketelitian penelitian masih rendah. Jumlah responden yang relatif sedikit menyebabkan data yang diperoleh belum sepenuhnya mampu mewakili populasi mahasiswa Program Studi Statistika Fakultas MIPA Universitas Mataram.
+
+Setelah jumlah responden ditambah menjadi 70 responden, tingkat kesalahan penelitian menurun menjadi 10%. Penurunan tingkat error menunjukkan bahwa data penelitian menjadi lebih representatif dan memiliki tingkat ketelitian yang lebih baik dibandingkan penelitian sebelumnya. Selain itu, jumlah sampel sebanyak 70 responden telah melebihi jumlah minimum hasil perhitungan Slovin yaitu sekitar 61 responden, sehingga data penelitian dinilai lebih layak digunakan untuk analisis lebih lanjut.
+
+---
+
+## Perbandingan Uji Validitas
+
+### Tabel Perbandingan Validitas
+
+| Item | r Hitung (28 Responden) | r Hitung (70 Responden) | Keterangan |
+|---|---|---|---|
+| 1 | 0.600 | 0.663 | Valid |
+| 2 | 0.563 | 0.627 | Valid |
+| 3 | 0.475 | 0.655 | Valid |
+| 4 | 0.583 | 0.634 | Valid |
+| 5 | 0.435 | 0.433 | Valid |
+| 6 | 0.665 | 0.588 | Valid |
+| 7 | 0.501 | 0.639 | Valid |
+| 8 | 0.711 | 0.746 | Valid |
+| 9 | 0.390 | 0.541 | Valid |
+| 10 | 0.228 | 0.595 | Tidak Valid → Valid |
+| 11 | 0.499 | 0.530 | Valid |
+| 12 | 0.699 | 0.862 | Valid |
+
+Berdasarkan hasil uji validitas pada 28 responden, terdapat satu item yang tidak valid yaitu item nomor 10 dengan nilai \(r_{hitung} = 0.228\), karena nilainya lebih kecil dibandingkan \(r_{tabel} = 0.374\). Sementara itu, item lainnya telah memenuhi kriteria validitas.
+
+Setelah jumlah responden ditambah menjadi 70 responden, seluruh item pertanyaan dinyatakan valid karena seluruh nilai \(r_{hitung}\) berada di atas 0.30 dan memiliki nilai signifikansi \(< 0.05\). Peningkatan jumlah responden menyebabkan hasil korelasi item menjadi lebih stabil dan lebih kuat dalam mengukur variabel penelitian.
+
+Perubahan paling terlihat terdapat pada item nomor 10 mengenai kenyamanan perpustakaan. Pada data awal item tersebut dinyatakan tidak valid, namun setelah jumlah responden ditambah nilai korelasinya meningkat menjadi 0.595 sehingga item tersebut berubah menjadi valid. Hal ini menunjukkan bahwa penambahan jumlah sampel dapat meningkatkan kualitas instrumen penelitian serta menghasilkan pengukuran yang lebih akurat.
+
+Selain itu, nilai validitas tertinggi pada data 70 responden terdapat pada item kepuasan keseluruhan terhadap fasilitas FMIPA dengan nilai \(r_{hitung} = 0.862\). Hal ini menunjukkan bahwa item tersebut memiliki hubungan yang sangat kuat dengan total skor kepuasan mahasiswa.
+
+---
+
+## Perbandingan Uji Reliabilitas
+
+### Tabel Perbandingan Reliabilitas
+
+| Sampel | Cronbach Alpha | Keterangan |
+|---|---|---|
+| 28 Responden | 0.772 | Reliabel |
+| 70 Responden | 0.848 | Reliabel |
+
+Berdasarkan hasil uji reliabilitas menggunakan metode Cronbach’s Alpha, data dengan 28 responden memperoleh nilai Cronbach Alpha sebesar 0.772. Nilai tersebut telah memenuhi kriteria reliabel karena berada di atas 0.70. Namun, setelah jumlah responden ditambah menjadi 70 responden, nilai Cronbach Alpha meningkat menjadi 0.848.
+
+Peningkatan nilai reliabilitas menunjukkan bahwa konsistensi internal antar item pertanyaan menjadi lebih baik setelah jumlah responden ditambah. Dengan kata lain, item-item pertanyaan pada kuesioner semakin stabil dalam mengukur tingkat kepuasan mahasiswa terhadap fasilitas Fakultas MIPA Universitas Mataram.
+
+Nilai reliabilitas yang lebih tinggi pada data 70 responden juga menunjukkan bahwa hasil penelitian menjadi lebih konsisten dan lebih dapat dipercaya dibandingkan data awal dengan 28 responden.
+
+---
+
+## Perbandingan Analisis Deskriptif
+
+### Perbandingan Distribusi Jawaban Responden
+
+Berdasarkan hasil distribusi frekuensi dan persentase pada data 28 responden maupun 70 responden, mayoritas mahasiswa memberikan jawaban pada kategori puas dan sangat puas terhadap sebagian besar fasilitas Fakultas MIPA Universitas Mataram.
+
+Pada data 28 responden, jawaban responden cenderung lebih terkonsentrasi pada kategori puas dengan variasi jawaban yang masih terbatas. Sementara itu, pada data 70 responden distribusi jawaban menjadi lebih beragam sehingga mampu memberikan gambaran yang lebih representatif mengenai kondisi fasilitas kampus.
+
+Beberapa indikator seperti perpustakaan, area parkir, dan kebersihan ruang kelas memperoleh tingkat kepuasan yang cukup tinggi pada kedua data penelitian. Hal ini menunjukkan bahwa fasilitas tersebut dinilai cukup baik oleh mahasiswa.
+
+Namun, indikator fasilitas AC/kipas angin serta kebersihan toilet masih memperoleh cukup banyak jawaban netral dan kurang puas, terutama pada data 70 responden. Hal ini menunjukkan bahwa kedua fasilitas tersebut masih perlu diperhatikan dan ditingkatkan untuk meningkatkan kenyamanan mahasiswa dalam proses pembelajaran.
+
+Secara umum, penambahan jumlah responden dari 28 menjadi 70 responden memberikan hasil penelitian yang lebih stabil, lebih akurat, dan lebih mampu menggambarkan kondisi sebenarnya mengenai tingkat kepuasan mahasiswa terhadap fasilitas Fakultas MIPA Universitas Mataram.
+
 # Kesimpulan
 
-Berdasarkan hasil penelitian dapat disimpulkan bahwa tingkat kepuasan mahasiswa Program Studi Statistika terhadap fasilitas di Fakultas MIPA Universitas Mataram cenderung positif. Hal ini terlihat dari dominasi jawaban responden pada kategori puas dan sangat puas pada sebagian besar indikator fasilitas.
-
-Hasil uji validitas menunjukkan seluruh item pertanyaan valid dengan nilai \(r_{hitung} > 0.30\) dan nilai signifikansi \(< 0.05\). Hasil uji reliabilitas menunjukkan bahwa instrumen penelitian reliabel dengan nilai Cronbach’s Alpha sebesar 0.848.
-
-Secara umum fasilitas di Fakultas MIPA Universitas Mataram telah dinilai cukup baik oleh mahasiswa, meskipun beberapa fasilitas seperti AC/kipas angin dan kebersihan toilet masih perlu ditingkatkan untuk meningkatkan kenyamanan mahasiswa dalam proses pembelajaran.
+Berdasarkan hasil penelitian, mahasiswa Program Studi Statistika Fakultas MIPA Universitas Mataram secara umum merasa puas terhadap fasilitas yang tersedia. Hal ini terlihat dari mayoritas jawaban responden yang berada pada kategori puas dan sangat puas. Hasil uji validitas menunjukkan seluruh item pertanyaan valid dengan nilai r hitung>0.30 dan nilai signifikansi <0.05. Hasil uji reliabilitas juga menunjukkan bahwa instrumen penelitian reliabel dengan nilai Cronbach’s Alpha sebesar 0.848. Berdasarkan perbandingan antara 28 responden dan 70 responden, penambahan jumlah responden memberikan hasil penelitian yang lebih baik. Tingkat error menurun dari sekitar 17% menjadi 10%, sehingga data penelitian menjadi lebih representatif dan lebih akurat. Selain itu, item yang sebelumnya tidak valid pada data 28 responden menjadi valid pada data 70 responden, serta nilai reliabilitas meningkat dari 0.772 menjadi 0.848. Secara umum, fasilitas FMIPA Universitas Mataram sudah dinilai cukup baik oleh mahasiswa, meskipun fasilitas AC/kipas angin dan kebersihan toilet masih perlu ditingkatkan.
