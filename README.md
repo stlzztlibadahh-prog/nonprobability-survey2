@@ -1,4 +1,4 @@
-### NAMA : SITI LIZATUL iBADAH
+### NAMA : SITI LIZATUL IBADAH
 ### NIM : G1F02410035
 ### PROGRAM STUDI : STATISTIKA
 ---
@@ -92,28 +92,209 @@ Instrumen penelitian menggunakan kuesioner dengan skala Likert sebagai berikut:
 
 ---
 
-# Teknik Analisis Data
+## Tahapan Analisis Data
 
-## Uji Validitas
-Uji validitas dilakukan untuk mengetahui apakah item pertanyaan mampu mengukur variabel penelitian dengan baik. Item dinyatakan valid apabila nilai \(r_{hitung} > 0.30\) dan nilai signifikansi \(< 0.05\).
+### 1. Load Library
+Pada tahap ini digunakan beberapa package yang membantu proses membaca data, analisis statistik, dan pengolahan data.
+
+```r
+# =========================
+# LOAD LIBRARY
+# =========================
+library(readxl)
+library(psych)
+library(tidyverse)
+```
 
 ---
 
-## Uji Reliabilitas
-Uji reliabilitas dilakukan menggunakan metode Cronbach’s Alpha untuk mengetahui tingkat konsistensi instrumen penelitian. Instrumen dinyatakan reliabel apabila nilai Cronbach’s Alpha > 0.70.
+### 2. Import Data
+Data hasil kuesioner kepuasan mahasiswa diimpor dari file Excel agar dapat dianalisis menggunakan RStudio.
+
+```r
+# =========================
+# MEMBACA DATA
+# =========================
+data <- read_excel(
+  "D:/SEMESTER 4/TEKSAM/DATA KEPUASAN FASILITAS MIPA (3).xlsx"
+)
+
+# Melihat data
+View(data)
+```
 
 ---
 
-## Analisis Deskriptif
+### 3. Struktur dan Pengolahan Data
+Tahap ini dilakukan untuk melihat struktur data serta mengubah seluruh variabel menjadi numerik agar dapat digunakan dalam analisis statistik.
 
-### Frekuensi
-Analisis frekuensi dilakukan untuk mengetahui jumlah jawaban responden pada setiap kategori skala Likert.
+```r
+# =========================
+# STRUKTUR DATA
+# =========================
+str(data)
 
-### Persentase
-Analisis persentase dilakukan untuk mengetahui proporsi jawaban responden pada setiap kategori.
+# Mengubah semua variabel menjadi numerik
+data <- data %>%
+  mutate(across(everything(), as.numeric))
+```
 
-### Histogram
-Histogram digunakan untuk melihat distribusi skor kepuasan responden secara keseluruhan.
+---
+
+### 4. Penentuan Ukuran Sampel Menggunakan Rumus Slovin
+Rumus Slovin digunakan untuk menentukan jumlah sampel minimum berdasarkan jumlah populasi dan tingkat kesalahan penelitian.
+
+```r
+# =========================
+# RUMUS SLOVIN
+# =========================
+
+# Jumlah populasi
+N <- 157
+
+# Tingkat kesalahan
+e <- 0.10
+
+# Menghitung ukuran sampel
+n <- N / (1 + N * e^2)
+
+# Menampilkan hasil Slovin
+n
+
+# Membulatkan hasil
+ceiling(n)
+```
+
+---
+
+### 5. Memilih Item Pertanyaan
+Tahap ini dilakukan untuk mengambil variabel item pertanyaan yang digunakan dalam penelitian.
+
+```r
+# =========================
+# MEMILIH ITEM PERTANYAAN
+# =========================
+item <- data[, 1:12]
+```
+
+---
+
+### 6. Uji Validitas
+Uji validitas dilakukan untuk mengetahui apakah setiap item pertanyaan mampu mengukur variabel penelitian dengan baik. Korelasi item terhadap total skor dihitung menggunakan fungsi `cor()` dan `cor.test()`.
+
+```r
+# =========================
+# UJI VALIDITAS
+# =========================
+
+# Menghitung total skor
+total_skor <- rowSums(item)
+
+# Korelasi item dengan total skor
+validitas <- data.frame(
+  Item = names(item),
+  
+  r_hitung = sapply(item, function(x)
+    cor(x, total_skor)
+  ),
+  
+  p_value = sapply(item, function(x)
+    cor.test(x, total_skor)$p.value
+  )
+)
+
+# Menampilkan hasil validitas
+print(validitas)
+```
+
+---
+
+### 7. Uji Reliabilitas
+Uji reliabilitas dilakukan menggunakan metode Cronbach’s Alpha untuk mengetahui tingkat konsistensi instrumen penelitian.
+
+```r
+# =========================
+# UJI RELIABILITAS
+# =========================
+
+reliabilitas <- psych::alpha(item)
+
+# Menampilkan hasil reliabilitas
+reliabilitas
+
+# Nilai Cronbach Alpha
+reliabilitas$total$raw_alpha
+```
+
+---
+
+### 8. Analisis Deskriptif
+Analisis deskriptif digunakan untuk melihat gambaran umum data seperti nilai minimum, maksimum, rata-rata, dan standar deviasi.
+
+```r
+# =========================
+# ANALISIS DESKRIPTIF
+# =========================
+
+# Statistik deskriptif sederhana
+summary(item)
+
+# Statistik deskriptif lengkap
+describe(item)
+```
+
+---
+
+### 9. Tabel Frekuensi dan Persentase
+Tahap ini bertujuan untuk mengetahui jumlah jawaban responden dan persentase pada setiap kategori skala Likert untuk seluruh item pertanyaan.
+
+```r
+# =========================
+# FREKUENSI DAN PERSENTASE
+# =========================
+
+for(i in names(item)){
+
+  cat("\n====================\n")
+  cat("Frekuensi", i, "\n")
+  cat("====================\n")
+
+  print(table(item[[i]]))
+
+  cat("\nPersentase", i, "\n")
+
+  print(
+    round(
+      prop.table(table(item[[i]])) * 100,
+      2
+    )
+  )
+
+}
+```
+
+---
+
+### 10. Visualisasi Data
+Histogram digunakan untuk melihat distribusi total skor kepuasan responden secara keseluruhan.
+
+```r
+# =========================
+# VISUALISASI DATA
+# =========================
+
+hist(
+  total_skor,
+
+  main = "Distribusi Skor Kepuasan Responden",
+
+  xlab = "Total Skor Kepuasan",
+  ylab = "Frekuensi Responden",
+
+  col = "lightblue",
+  border = "black"
+)
+```
 
 ---
 
@@ -264,7 +445,6 @@ Nilai reliabilitas yang lebih tinggi pada data 70 responden juga menunjukkan bah
 
 ---
 
-## Perbandingan Analisis Deskriptif
 ## Perbandingan Analisis Deskriptif
 
 ### Tabel Perbandingan Frekuensi
