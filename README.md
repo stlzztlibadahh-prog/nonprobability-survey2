@@ -403,20 +403,20 @@ Setelah jumlah responden ditambah menjadi 70 responden, tingkat kesalahan peneli
 
 ### Tabel Perbandingan Validitas
 
-| Item | r Hitung (28 Responden) | r Hitung (70 Responden) | Keterangan |
-|---|---|---|---|
-| 1 | 0.600 | 0.663 | Valid |
-| 2 | 0.563 | 0.627 | Valid |
-| 3 | 0.475 | 0.655 | Valid |
-| 4 | 0.583 | 0.634 | Valid |
-| 5 | 0.435 | 0.433 | Valid |
-| 6 | 0.665 | 0.588 | Valid |
-| 7 | 0.501 | 0.639 | Valid |
-| 8 | 0.711 | 0.746 | Valid |
-| 9 | 0.390 | 0.541 | Valid |
-| 10 | 0.228 | 0.595 | Tidak Valid → Valid |
-| 11 | 0.499 | 0.530 | Valid |
-| 12 | 0.699 | 0.862 | Valid |
+| No | Indikator | r Hitung (28 Responden) | r Hitung (70 Responden) | Keterangan |
+|---|---|---|---|---|
+| 1 | Ruang kelas nyaman | 0.600 | 0.663 | Valid |
+| 2 | Meja & kursi layak | 0.563 | 0.627 | Valid |
+| 3 | AC/Kipas berfungsi | 0.475 | 0.655 | Valid |
+| 4 | Pencahayaan memadai | 0.583 | 0.634 | Valid |
+| 5 | TV/LCD mendukung | 0.435 | 0.433 | Valid |
+| 6 | Laboratorium memadai | 0.665 | 0.588 | Valid |
+| 7 | Akses internet/WiFi | 0.501 | 0.639 | Valid |
+| 8 | Kebersihan ruang kelas | 0.711 | 0.746 | Valid |
+| 9 | Kebersihan toilet | 0.390 | 0.541 | Valid |
+| 10 | Perpustakaan nyaman | 0.228 | 0.595 | Tidak Valid → Valid |
+| 11 | Area parkir aman | 0.499 | 0.530 | Valid |
+| 12 | Kepuasan fasilitas FMIPA | 0.699 | 0.862 | Valid |
 
 Berdasarkan hasil uji validitas pada 28 responden, terdapat satu item yang tidak valid yaitu item nomor 10 dengan nilai \(r_{hitung} = 0.228\), karena nilainya lebih kecil dibandingkan \(r_{tabel} = 0.374\). Sementara itu, item lainnya telah memenuhi kriteria validitas.
 
