@@ -490,3 +490,7 @@ Berdasarkan hasil perbandingan frekuensi dan persentase pada 28 responden dan 70
 # Kesimpulan
 
 Berdasarkan hasil penelitian, mahasiswa Program Studi Statistika Fakultas MIPA Universitas Mataram secara umum merasa puas terhadap fasilitas yang tersedia. Hal ini terlihat dari mayoritas jawaban responden yang berada pada kategori puas dan sangat puas. Hasil uji validitas menunjukkan seluruh item pertanyaan valid dengan nilai r hitung>0.30 dan nilai signifikansi <0.05. Hasil uji reliabilitas juga menunjukkan bahwa instrumen penelitian reliabel dengan nilai Cronbach’s Alpha sebesar 0.848. Berdasarkan perbandingan antara 28 responden dan 70 responden, penambahan jumlah responden memberikan hasil penelitian yang lebih baik. Tingkat error menurun dari sekitar 17% menjadi 10%, sehingga data penelitian menjadi lebih representatif dan lebih akurat. Selain itu, item yang sebelumnya tidak valid pada data 28 responden menjadi valid pada data 70 responden, serta nilai reliabilitas meningkat dari 0.772 menjadi 0.848. Secara umum, fasilitas FMIPA Universitas Mataram sudah dinilai cukup baik oleh mahasiswa, meskipun fasilitas AC/kipas angin dan kebersihan toilet masih perlu ditingkatkan.
+
+
+## LINK KUISIONER
+https://forms.gle/HpB1WEGRwGU1p47b6
